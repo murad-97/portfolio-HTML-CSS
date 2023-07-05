@@ -776,14 +776,13 @@ align-items: flex-start;
 }
 footer .right a{
     margin: 20px;
-   
     scale: 110%;
     color: #fffefb;
     transition: 0.2s;
 color: #FFCA00;
-
 align-items: flex-start;
 }
+
 footer .right a:hover{
     scale: 110%;
     color: #fffefb;
