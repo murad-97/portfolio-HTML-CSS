@@ -64,11 +64,13 @@ font-weight: bolder;
 #HOME .yellow img{
     /* padding-left:14em;
     width: 550px; */
-        margin-left: 25px;
+        
         position: absolute;
-        top: 106px;
-        left: 24px;
-        width: 425px;
+        top: 38px;
+        left: 218px;
+        width: 396px
+    px
+    ;
 }
 @media screen and (min-width:481px) and (max-width:768px){
     #HOME .yellow img{
@@ -220,15 +222,15 @@ width: 58%;
 height:95%;
 border: solid black 3px;
 top: -10px;
-left: 33px;
+left: -17px;
 }
 #EDUCATIONS .right .content{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 267px;
     position: absolute;
     top: 68%;
-    right: 20%;
+    right: 26%;
 }
 #EDUCATIONS .right .content p{
     height: 200px;
@@ -270,6 +272,7 @@ left: 33px;
     /* justify-content: space-between; */
     align-items: center;
     position: relative;
+    gap: 10px;
 }
 #EDUCATIONS .left #edu-content .content h4{
     /* padding: 30px; */
@@ -291,7 +294,7 @@ left: 33px;
     top: -20px;
     left: -20px;
 
-    height: 150px;
+    height: 110px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -312,7 +315,7 @@ left: 33px;
 }
 #PROJECTS{
     margin: 50px 30px;
-    position: relative;
+    
    
 }
 
@@ -400,9 +403,10 @@ transform: translateY(-42px);
     position: absolute;
     background-color: #FFCA00;
     height: 220px;
-    width: 100px;
-    left: -30px;
-    top: 9vh;
+    width: 116px;
+    left: -63px;
+    top: 2vh;
+
 }
 #PROJECTS .yellow:after {
     content: "";
@@ -410,9 +414,9 @@ transform: translateY(-42px);
     position: absolute;
     background-color: #FFCA00;
     height: 100px;
-    width: 100px;
-    left: -160px;
+    width: 201px;
     top: 0;
+    left: -300px;
 }
 
 #PROJECTS .yellow3{
@@ -422,7 +426,7 @@ transform: translateY(-42px);
     height: 100px;
     width: 200px;
     right: 0;
-    bottom: 50px;
+    bottom: 0;
 }
 @media  screen and (min-width:481px) and (max-width:768px){
 #PROJECTS .yellow:after {
@@ -700,7 +704,7 @@ right:0 ;
     margin-bottom: 0;
 }
 #COURSES  .h4 img{
-    width:70px;
+    width:100px;
 }
 #COURSES .content7 #edu-content .content span{
     border: white solid 5px;
@@ -780,15 +784,11 @@ color: #FFCA00;
 
 align-items: flex-start;
 }
-footer .right a :hover{
-   
-   
+footer .right a:hover{
     scale: 110%;
     color: #fffefb;
     transition: 0.2s;
-
-
-align-items: flex-start;
+    align-items: flex-start;
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
