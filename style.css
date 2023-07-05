@@ -309,9 +309,7 @@ left: -17px;
     flex-direction: column;
     width: 200px;  
 }
-#EDUCATIONS  p{
-/* width: 100px;  */
-}
+
 @media screen and (max-width:481px){
     #EDUCATIONS .left  div {
         max-width: 100px;
@@ -750,7 +748,12 @@ right:0 ;
 #COURSES .content7 .yellow{
     background-color: #FFCA00;
 }
+@media (min-width: 481px) and (max-width: 768px){
 
+    .discription-date {
+        width: 100%;
+    }
+}
 footer{
     background-color: gray;
     display: grid;
