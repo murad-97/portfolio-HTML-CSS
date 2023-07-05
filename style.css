@@ -30,10 +30,11 @@ nav{
 #header-list li{
 color: rgb(72, 72, 72);
 transition: 0.2s;
-margin: 0 0px;
+margin: 0 40px;
 
 
 }
+
 #header-list li:hover{
 
 scale: 110%;
@@ -247,6 +248,9 @@ left: -17px;
         width: 50%;
         position: relative;
         right: 40px;
+    }
+    #EDUCATIONS .right .content{
+        right: 11%
     }
     #EDUCATIONS p{
         font-size: 11px;
@@ -520,6 +524,24 @@ margin-bottom: 20px;
     right: 10px;
     bottom: 0;
 }
+@media  screen and (min-width:481px) and (max-width:768px){
+    #SKILLS .teck-skills div{
+      display: none;
+    }
+    #LANGUAGE .content div .arabic {
+       
+        height: 30px;
+    }
+    #LANGUAGE .content div img {
+        
+        height: 30px;
+
+    }
+    
+#COURSES .content .h4{
+    width: 400px;
+}
+}
 #LANGUAGE{
     margin-top: 50px;
 }
@@ -684,6 +706,7 @@ right:0 ;
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+    
 }
 #COURSES .content7 #edu-content .content{
     border: solid 2px black;
@@ -755,6 +778,13 @@ footer .left .links{
 font-size: 10px;
 
 }
+#edu-content{
+    width: 100%;
+}
+#EDUCATIONS .left #edu-content .content {
+    align-items: flex-start;
+}
+
 }
 footer .left .links a{
     padding: 5px;
