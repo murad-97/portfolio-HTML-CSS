@@ -34,6 +34,9 @@ margin: 0 40px;
 
 
 }
+.navbar-nav {
+    background-color:#FFCA00;
+}
 
 #header-list li:hover{
 
@@ -78,12 +81,13 @@ font-weight: bolder;
         Padding-left: 0;
         width: 118%;
         /* HEIGHT: 64%; */
-        left: 13px;
+        left: 41px;
         top: 79px;
     }
     #HOME{
         background-color: #FFCA00;
     }
+    
 
     }
 
@@ -642,8 +646,14 @@ width: 300PX;
 height: 10px;
 background-color: black;
 /* margin-left: 1000px; */
+left: 1000px;
+    position: relative;
 
 
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #REFERENCES #black{    left: 446px;
+    }
 }
 
 #REFERENCES .content{
