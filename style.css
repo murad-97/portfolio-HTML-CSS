@@ -765,6 +765,9 @@ display: none;
   }
   #LANGUAGE .content div .arabic {
     height: 30px;
+    width: 79% !important;
+    transform: translateX(0px);
+
   }
   #LANGUAGE .content div img {
     height: 30px;
@@ -793,33 +796,23 @@ display: none;
   margin-left: 150px;
   position: relative;
 }
+#LANGUAGE .content .yellow2 {
+    height: 201px;
+    border-bottom: solid 25px #ffca00;
+    border-right: solid 25px #ffca00;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+  }
 @media (min-width: 481px) and (max-width: 768px) {
   #LANGUAGE .content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     margin-left: 50px;
-    position: relative;
+   
   }
+
 }
-@media (max-width: 480px) {
-  #LANGUAGE .content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 13px;
-    position: relative;
-  }
-  #LANGUAGE .content div {
-    gap: 0 !important;
-  }
-  #LANGUAGE .title4 span {
-    width: 50%;
-    margin-right: 17px;
-  }
-}
+
 #LANGUAGE .content .yellow {
   color: #ffca00;
 }
@@ -855,23 +848,18 @@ display: none;
   }
 }
 @media (max-width: 480px) {
-  #LANGUAGE .content div .arabic {
-    width: 48%;
-  }
+
   #LANGUAGE .content div img {
-    transform: translate(43px, 0);
-    width: 35%;
+ 
+transform: translate(-36px, 0);
+width: 60%;
   }
+  #LANGUAGE .content .yellow2 ,
+#LANGUAGE .content .yellow1 {
+    display: none;
 }
-#LANGUAGE .content .yellow2 {
-  height: 201px;
-  border-bottom: solid 25px #ffca00;
-  border-right: solid 25px #ffca00;
-  width: 200px;
-  position: absolute;
-  bottom: 0;
-  right: 100px;
 }
+
 
 #REFERENCES .title6 {
   margin: 50px;
@@ -1138,9 +1126,7 @@ footer .right a:hover {
   footer .left {
     margin: 0;
   }
-  footer .left .links a {
-    font-size: 5px;
-  }
+
   .soft-skills span {
     font-size: 10px;
   }
@@ -1164,4 +1150,101 @@ footer .right a:hover {
   #EDUCATIONS .right span{
     top: 0;
   }
+}
+@media (max-width: 480px) {
+    #LANGUAGE .content {
+   margin: 0;
+    }   
+    #REFERENCES .content {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: 80vh;
+    position: relative;}
+    #LANGUAGE .content div {
+      flex-direction: column;
+      justify-content: none;
+      width: 100%;
+      align-items: center;
+      
+  }
+  #LANGUAGE .content div h3 {
+      width:auto !important;
+  }
+    #LANGUAGE .content div {
+      gap: 0 !important;
+    }
+    #LANGUAGE .title4 span {
+      width: 50%;
+      margin-right: 17px;
+    }
+    #REFERENCES .content{}
+    #REFERENCES .content #coatch div {
+        height: 100%;
+        width: 100%;
+        background-color: #ffca00;
+    }
+    #REFERENCES .content #coatch img {
+        height: 59%;
+    position: absolute;
+    top: 34px;
+    right: 50%;
+    transform: translateX(50%);
+    }
+    #REFERENCES .content .info {
+        position: absolute;
+        /* right: 99%; */
+        top: 65%;
+        margin: 20px 50px;
+        gap: 8px;
+    }
+    #REFERENCES .content .info .icons {
+        transform: translateY(-41px);
+        justify-content: space-around;}
+    #REFERENCES .content .info .icons svg {
+width: 30px;
+    }
+    #COURSES .content7 {
+        display: block;
+    }
+    #COURSES .content7 #edu-content .content {
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        border: none;
+    }
+    #COURSES .content7 #edu-content .content span {
+        display:none;
+    }
+    #edu-content {
+        margin: 0;
+    }
+    footer{
+        height: 19vh;
+        padding: 10px 0 0 10px;
+    }
+    footer .right {
+        margin: 0 0 0 20px;
+        height: 100px;}
+    footer .right a{
+        margin: 0;
+        margin-right: 2px;
+    }
+
+    footer .right p {
+        font-size: 6px;}
+ 
+    footer .left  {
+        height: 100px;
+    }
+    footer .left .links {
+        flex-wrap: wrap;
+  }
+  footer .left .links a {
+    font-size: 7px;
+
+  }
+  #copy{
+  font-size: 7px;
+    transform: translate(157px, 23px);
+}
 }
